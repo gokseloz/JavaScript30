@@ -1,0 +1,158 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5) no-repeat center / cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid #fff;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #000 0 3%, transparent 0%);
+}
+
+.clock-face{
+    width: 95%;
+    height: 95%;
+    position: relative;
+    text-align: center;
+    transform: translateX(-3px);
+}
+
+.hand{
+    width: .5rem;
+    height: 50%;
+    left: 50%;
+    background-color: #000;
+    position: absolute;
+    transform-origin: bottom;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.second-hand{
+transform:rotate()
+}
+.min-hand{
+
+}
+.hour-hand{
+    
+
+} */
+
+
+html {
+    background: url(https://unsplash.it/1500/1000?image=881&blur=5) no-repeat center / cover;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock {
+    width: 40rem;
+    height: 40rem;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem;
+    box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+.clock-face::before {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -50%);
+    border-radius: 50%;
+}
+
+.hand {
+    width: .6rem;
+    height: 50%;
+    background: black;
+    position: absolute;
+    left: 50%;
+    transform-origin: bottom;
+    border-radius: 20px;
+    z-index: 3;
+    transition: all 1s;
+}
+
+.hour-hand {
+    height: 30%;
+    top: 8rem;
+}
+
+.min-hand {
+    height: 40%;
+    top: 4rem;
+}
+
+.line {
+    position: absolute;
+    width: .6rem;
+    height: 100%;
+    background-color: #fff;
+    background: linear-gradient(#fff 0 10%, transparent 10% 90%, #fff 90%);
+    left: 50%;
+    top: 0%;
+    z-index: -1;
+}
+.line1{
+    background: linear-gradient(#a7623a 0 15%, transparent 10% 85%, #a7623a 85%);
+}
+
+.line2 {
+    background: linear-gradient(#a7623a 0 15%, transparent 10% 85%, #a7623a 85%);
+    transform: rotate(90deg);
+}
+
+.line3 {
+    transform: rotate(30deg);
+}
+
+.line4 {
+    transform: rotate(60deg);
+}
+
+.line5 {
+    transform: rotate(120deg);
+}
+
+.line6 {
+    transform: rotate(150deg);
+}
