@@ -4,6 +4,6 @@
 
 |  #  | Project | Live Demo |
 | --- | ------- | --------- |
-| 01  | [Drum Kit](https://github.com/gokseloz/JavaScript30/tree/master/01%20-%20Drum%20Kit)  | [LiveDemo](https://drum-kit-brown.vercel.app/) |
+| 01  | [Drum Kit](https://github.com/gokseloz/JavaScript30/tree/master/01%20-%20Drum%20Kit)  |  |
 
 
