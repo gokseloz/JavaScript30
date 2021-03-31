@@ -25,6 +25,15 @@ body {
         0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width:530px){
+    .clock{
+        width: 25rem;
+        height: 25rem;
+        border: 5px solid #fff;
+    }
+
+}
+
 .clock-face {
     position: relative;
     width: 100%;
@@ -60,12 +69,12 @@ body {
 
 .hour-hand {
     height: 30%;
-    top: 8rem;
+    top: 20%;
 }
 
 .min-hand {
     height: 40%;
-    top: 4rem;
+    top: 10%;
 }
 
 .line {
