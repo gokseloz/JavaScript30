@@ -33,6 +33,13 @@ body {
     }
 
 }
+@media (max-width:319px){
+    .clock{
+        width: 20rem;
+        height: 20rem;
+    }
+
+}
 
 .clock-face {
     position: relative;
