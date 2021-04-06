@@ -14,6 +14,7 @@
 // ----------------------------
 // * How did I code by myself *
 // ----------------------------
+// Alternative code to the original one
 document.querySelector("#spacing").addEventListener("input", createSpace)
 document.querySelector("#blur").addEventListener("input", createBlur)
 document.querySelector("#base").addEventListener("input", createColor)
@@ -36,9 +37,7 @@ function createColor() {
 
 }
 
-// --------------------------
-// * Get the Output's Value *
-// --------------------------
+// What I added is below => Get Output's value and change the input value by typing it
 document.querySelector(".outputSpacing").addEventListener("blur", changeSpace)
 document.querySelector(".outputBlur").addEventListener("blur", changeBlur)
 document.querySelector(".outputColor").addEventListener("blur", changeColor)
