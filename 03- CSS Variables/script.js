@@ -34,7 +34,6 @@ function createBlur() {
 function createColor() {
     document.querySelector("#img").style.background = this.value
     document.querySelector(".outputColor").value = this.value
-
 }
 
 // What I added is below => Get Output's value and change the input value by typing it
