@@ -6,4 +6,6 @@
 | --- | ------- | --------- |
 | 01  | [Drum Kit](https://github.com/gokseloz/JavaScript30/tree/master/01%20-%20Drum%20Kit)  |  |
 | 02  | [Clock](https://github.com/gokseloz/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)  | [Live Demo](https://js-css-clock-gokseloz.vercel.app/) |
+| 03  | [Css Variables](https://github.com/gokseloz/JavaScript30/tree/master/03-%20CSS%20Variables)  | [Live Demo](https://css-var-js-gokseloz.vercel.app/) |
+
 

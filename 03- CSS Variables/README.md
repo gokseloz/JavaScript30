@@ -1,6 +1,6 @@
 ## Playing with CSS variables with JavaScript
 - This is a JS based project
-- JavaScript file contain both my own code(I tried to do it by myself) and the code of the original project
+- JavaScript file contain both my own code(without help) and the code of the original project
 - Besides original project, I added different properties in my own code which are;
     - Outputs are added which show the value of the inputs
     - Outsputs are typeable and therefore you can change the value of the inputs by typing it as well
@@ -20,4 +20,4 @@
 - Fully Responsive
 
 ## ScreenShot
-![screenshot](https://user-images.githubusercontent.com/72968539/113717746-3a548d00-96ec-11eb-8c26-419882badfad.png))
+![screenshot](https://user-images.githubusercontent.com/72968539/113717746-3a548d00-96ec-11eb-8c26-419882badfad.png)
