@@ -62,6 +62,10 @@ function changeBlur() {
 }
 
 function changeColor() {
+    if(document.querySelector(".outputColor").value.length < 7){
+        alert("please type 6 digit hex code")
+        return
+    }
     document.querySelector("#base").value = document.querySelector(".outputColor").value
     document.querySelector("#img").style.background = `${this.value}`
 
