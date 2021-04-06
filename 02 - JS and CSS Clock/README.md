@@ -15,3 +15,4 @@
 - Fully Responsive
 
 ## ScreenShot
+![JS-CSS-Clock](https://user-images.githubusercontent.com/72968539/113287715-3987b980-92ee-11eb-87c0-408181546945.png)
