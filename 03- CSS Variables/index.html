@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="hortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>Update Css Variables with JavaScript</title>
+</head>
+
+<body>
+    <main>
+        <h1>Update CSS Variables with <span class='hl'>JS</span></h1>
+
+        <div class="controls">
+            <div class="control">
+                <label for="spacing">Spacing:</label>
+                <input id="spacing" type="range" name="spacing" min="0" max="200" value="0" data-sizing="px">
+                <input class="output outputSpacing" type="number" min="0" max="200" value="0"></input>
+            </div>
+            <div class="control">
+                <label for="blur">Blur:</label>
+                <input id="blur" type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+                <input class="output outputBlur" type="number" min="0" max="25" value="0"></input>
+            </div>
+            <div class="control">
+                <label for="base">Base Color</label>
+                <input id="base" type="color" name="base" value="#ffc600">
+                <input class="output outputColor" type="text" value="#ffc600"></input>
+            </div>
+        </div>
+
+        <img id="img"
+            src="https://images.unsplash.com/photo-1616259538286-9a912d5139c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+    </main>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
