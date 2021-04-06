@@ -20,4 +20,4 @@
 - Fully Responsive
 
 ## ScreenShot
-![screenshot](https://user-images.githubusercontent.com/72968539/113717746-3a548d00-96ec-11eb-8c26-419882badfad.png))
+![screenshot](https://user-images.githubusercontent.com/72968539/113717746-3a548d00-96ec-11eb-8c26-419882badfad.png)
