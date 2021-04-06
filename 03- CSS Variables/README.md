@@ -1,4 +1,4 @@
-## Playing with CSS variables with JavaScript
+## Playing CSS variables with JavaScript
 - This is a JS based project
 - JavaScript file contain both my own code(without help) and the code of the original project
 - Besides original project, I added different properties in my own code which are;
