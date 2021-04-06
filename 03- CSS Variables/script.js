@@ -15,9 +15,13 @@
 // * How did I code by myself *
 // ----------------------------
 // Alternative code to the original one
-document.querySelector("#spacing").addEventListener("input", createSpace)
-document.querySelector("#blur").addEventListener("input", createBlur)
-document.querySelector("#base").addEventListener("input", createColor)
+let inputSpacing = document.querySelector("#spacing");
+let inputBlur = document.querySelector("#blur");
+let inputColor = document.querySelector("#base")
+
+inputSpacing.addEventListener("input", createSpace)
+inputBlur.addEventListener("input", createBlur)
+inputColor.addEventListener("input", createColor)
 
 function createSpace() {
     const suffix = this.getAttribute("data-sizing");
@@ -37,36 +41,39 @@ function createColor() {
 }
 
 // What I added is below => Get Output's value and change the input value by typing it
-document.querySelector(".outputSpacing").addEventListener("blur", changeSpace)
-document.querySelector(".outputBlur").addEventListener("blur", changeBlur)
-document.querySelector(".outputColor").addEventListener("blur", changeColor)
+let outputSpacing = document.querySelector(".outputSpacing");
+let outputBlur = document.querySelector(".outputBlur");
+let outputColor = document.querySelector(".outputColor");
+
+outputSpacing.addEventListener("blur", changeSpace)
+outputBlur.addEventListener("blur", changeBlur)
+outputColor.addEventListener("blur", changeColor)
 
 function changeSpace() {
-    if (document.querySelector(".outputSpacing").value > 200 || document.querySelector(".outputSpacing").value < 0) {
+    if (outputSpacing.value > 200 || outputSpacing.value < 0) {
         alert("please type a number between 0 and 200")
         return
     }
-    const suffix = document.querySelector("#spacing").getAttribute("data-sizing");
-    document.querySelector("#spacing").value = document.querySelector(".outputSpacing").value
-    document.querySelector("#img").style.padding = `${document.querySelector("#spacing").value}${suffix}`
+    const suffix = inputSpacing.getAttribute("data-sizing");
+    inputSpacing.value = this.value
+    document.querySelector("#img").style.padding = `${this.value}${suffix}`
 }
 
 function changeBlur() {
-    if (document.querySelector(".outputBlur").value > 25 || document.querySelector(".outputBlur").value < 0) {
+    if (outputBlur.value > 25 || outputBlur.value < 0) {
         alert("please type a number between 0 and 25")
         return
     }
-    const suffix = document.querySelector("#blur").getAttribute("data-sizing");
-    document.querySelector("#blur").value = document.querySelector(".outputBlur").value
+    const suffix = inputBlur.getAttribute("data-sizing");
+    inputBlur.value = this.value
     document.querySelector("#img").style.filter = `blur(${this.value}${suffix})`
 }
 
 function changeColor() {
-    if(document.querySelector(".outputColor").value.length < 7){
+    if (outputColor.value.length != 7) {
         alert("please type 6 digit hex code")
         return
     }
-    document.querySelector("#base").value = document.querySelector(".outputColor").value
+    inputColor.value = this.value
     document.querySelector("#img").style.background = `${this.value}`
-
 }
