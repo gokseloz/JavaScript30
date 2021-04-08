@@ -6,9 +6,10 @@
 - In order to improve my JS skills
 
 ## What did I learn from this project?
+- How and where to use `filter(), map(), sort(), reduce()` methods
+- Chaining methods
 - Usage of `console.table` as an alternative to console.log, btw seems pretty handy
 - `querySelectorAll` is not used with only document.querySelectorAll but also with an `element.querySelectorAll`
-- How and where to use `filter(), map(), sort(), reduce()` methods
 
 ## How did I do this?
 - Vanilla JavaScript
