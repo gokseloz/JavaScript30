@@ -1,7 +1,7 @@
 ## Array Cardio Day 1
 - This part is the practice of filter(), map(), sort(), reduce() methods
-- JavaScript file contain both original course code and my codes(Another way) without looking at the original one.
-
+- JavaScript file contain both original course code and my way of code(Another way)
+- 
 ## Why did I work on this project?
 - In order to improve my JS skills
 
