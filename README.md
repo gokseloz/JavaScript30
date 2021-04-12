@@ -8,6 +8,8 @@
 | 02  | [Clock](https://github.com/gokseloz/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)  | [Live Demo](https://js-css-clock-gokseloz.vercel.app/) |
 | 03  | [Css Variables](https://github.com/gokseloz/JavaScript30/tree/master/03-%20CSS%20Variables)  | [Live Demo](https://css-var-js-gokseloz.vercel.app/) |
 | 04  | [Array Cardio Day 1](https://github.com/gokseloz/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201)
+| 05  | [Image Gallery](https://github.com/gokseloz/JavaScript30/tree/master/03-%20CSS%20Variables)  | [Live Demo](https://image-gallery-kdzyi1h3a-gokseloz.vercel.app/) |
+
 
 
 
