@@ -5,7 +5,7 @@
 - In order to improve my CSS and JS skills
 
 ## What did I learn from this project?
-- Nothing specific, but general layout
+- Nothing specific, but general layout and flexbox
 
 ## How did I do this?
 - HTML, CSS & Vanilla JavaScript
