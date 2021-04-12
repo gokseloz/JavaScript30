@@ -1,11 +1,7 @@
 const panels = document.querySelectorAll(".panel")
 
-panels.forEach(panel => panel.addEventListener("click", () => {
+panels.forEach(panel => panel.addEventListener("click", (e) => {
+    console.log(e.propertyName)
     panel.classList.toggle("open")
-
-}))
-panels.forEach(panel => panel.addEventListener("transitionend", (e) => {
-    if (e.propertyName.includes("flex")) {
-        panel.classList.toggle("open-active")
-    }
+    panel.classList.toggle("open-active")
 }))

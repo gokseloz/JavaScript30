@@ -44,23 +44,23 @@ body {
 }
 
 .panel1 {
-    background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
+    background-image: url(https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=828&q=80);
 }
 
 .panel2 {
-    background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+    background-image: url(https://images.unsplash.com/photo-1583024274313-cfb3f1bc43c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 }
 
 .panel3 {
-    background-image: url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d);
+    background-image: url(https://images.unsplash.com/photo-1464821541677-ceb53bcf1541?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 }
 
 .panel4 {
-    background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+    background-image: url(https://images.unsplash.com/photo-1578785729438-963d049c79a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
 }
 
 .panel5 {
-    background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
+    background-image: url(https://images.unsplash.com/photo-1487252015168-776961549aca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1328&q=80);
 }
 
 /* Flex Children */
@@ -76,17 +76,19 @@ body {
 
 .panel.open-active p:nth-child(1) {
     transform: translateY(0);
+    transition: transform .5s .7s;
 }
 
 .panel.open-active p:nth-child(3) {
     transform: translateY(0);
+    transition: transform .5s .7s;
 }
 
 .panel p {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .panel p:nth-child(1) {
@@ -94,15 +96,14 @@ body {
 }
 
 .panel p:nth-child(2) {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .panel p:nth-child(3) {
     transform: translateY(100%);
-
 }
 
 .panel.open {
     flex: 5;
-    font-size: 30px;
+    font-size: 40px;
 }
