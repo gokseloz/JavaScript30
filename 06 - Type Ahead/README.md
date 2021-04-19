@@ -17,3 +17,6 @@
 ## How did I do this?
 - HTML,CSS and Vanilla JavaScript
 
+## Screenshot
+![JS30-Type-Ahead](https://user-images.githubusercontent.com/72968539/115302647-f38e7a80-a162-11eb-9eb4-bcce35d6fae7.png)
+
