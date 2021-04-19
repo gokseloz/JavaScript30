@@ -8,8 +8,12 @@
 - `Fetch API` to fetch the resources
 - `then(), catch(), json()`
 - Spread syntax `...`
-- `regExp, match(), replace()`
-
+- RegExp
+    - `match(), replace()`
+    - `gi` modifier 
+        - `g` = global, match all instances of the pattern in a string, not just one
+        - `i` = insensitive, /a/i will match the string "a" or "A".
+        
 ## How did I do this?
 - HTML,CSS and Vanilla JavaScript
 
