@@ -1,4 +1,4 @@
-## Hold Shift and Check Checkboxes Add main page
+## Hold Shift and Check Checkboxes
 - Selecting multiple checkboxes by pressing the Shift key
 
 ## Why did I work on this project?
