@@ -19,4 +19,3 @@
 - Vanilla JavaScript
 
 ## Screenshot
-![JS30-HTML5-Canvas](https://user-images.githubusercontent.com/72968539/115860154-659be380-a431-11eb-8f2a-e88ef53246c6.png)
