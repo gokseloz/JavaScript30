@@ -94,20 +94,20 @@ setInterval(() => {
 }, 250);
 
 
-//clicking progressbar and 
+//clicking progressbar and updating position of the play 
 const seek = (e) => {
     let percent = (e.offsetX / progressCont.offsetWidth);
     video.currentTime = percent * video.duration
 };
-
 progressCont.addEventListener("click", seek);
+
 
 //displayig current time and total duration
 function currentTime() { 
-    var curmins = Math.floor(video.currentTime / 60);
-    var cursecs = Math.floor(video.currentTime - curmins * 60);
-    var durmins = Math.floor(video.duration / 60);
-    var dursecs = Math.floor(video.duration - durmins * 60);
+    let curmins = Math.floor(video.currentTime / 60);
+    let cursecs = Math.floor(video.currentTime - curmins * 60);
+    let durmins = Math.floor(video.duration / 60);
+    let dursecs = Math.floor(video.duration - durmins * 60);
     if(cursecs < 10){ cursecs = `0${cursecs}`};
     if(dursecs < 10){ dursecs = `0${dursecs}`};
     if(curmins < 10){ curmins = `0${curmins}`};
