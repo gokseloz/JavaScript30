@@ -37,8 +37,14 @@ const playPause = () => {
         bool = true
     }
 };
+const spaceBar = (e) => {
+    if(e.keyCode === 32){
+        playPause()
+    }
+}
 playPauseBtn.addEventListener("click", playPause);
 video.addEventListener("click", playPause);
+window.addEventListener("keyup", spaceBar)
 
 
 //skipping back or forward
