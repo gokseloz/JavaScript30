@@ -20,6 +20,10 @@ body {
     justify-content: center;
 }
 
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
 .player {
     max-width: 750px;
     border: 5px solid rgba(0, 0, 0, 0.2);
@@ -27,17 +31,7 @@ body {
     position: relative;
     font-size: 0;
     overflow: hidden;
-}
-
-/* This css is only applied when fullscreen is active. */
-.player:fullscreen {
-    max-width: none;
-    width: 100%;
-}
-
-.player:-webkit-full-screen {
-    max-width: none;
-    width: 100%;
+    margin: 1rem;
 }
 
 .player__video {
@@ -47,7 +41,6 @@ body {
 .player__button {
     background: none;
     border: 0;
-    line-height: 1;
     color: white;
     text-align: center;
     outline: 0;
@@ -67,17 +60,21 @@ body {
 
 .player__controls {
     display: flex;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
     transform: translateY(100%) translateY(-5px);
-    transition: all .3s;
+    transition: transform .3s;
     flex-wrap: wrap;
     background: rgba(0, 0, 0, 0.1);
 }
 
 .player:hover .player__controls {
     transform: translateY(0);
+}
+.player:hover .fullScreen {
+    transform: translateX(0);
 }
 
 .player:hover .progress {
@@ -103,10 +100,57 @@ body {
     width: 50%;
     background: #ffc600;
     flex: 0;
-    flex-basis: 50%;
+    flex-basis: 0%;
 }
 
 /* unholy css to style input type="range" */
+
+.toggle {
+    font-size: .8rem;
+    flex: .70;
+    display: flex;
+    justify-content: center;
+}
+
+.iconValue {
+    color: #fff;
+    min-width: 30px;
+    flex: .35;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.icon {
+    text-align: right;
+    flex: 1;
+
+}
+
+.volumeText,
+.speedText {
+    flex: 1;
+    text-align: right;
+}
+
+
+.displayTime {
+    min-width: 30px;
+    flex: .70;
+    color: #fff;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skipBtn {
+    font-size: .8rem;
+    flex: .70;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 input[type=range] {
     -webkit-appearance: none;
@@ -114,6 +158,7 @@ input[type=range] {
     width: 100%;
     margin: 0 5px;
 }
+
 
 input[type=range]:focus {
     outline: none;
@@ -140,10 +185,6 @@ input[type=range]::-webkit-slider-thumb {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #bada55;
-}
-
 input[type=range]::-moz-range-track {
     width: 100%;
     height: 8.4px;
@@ -161,4 +202,64 @@ input[type=range]::-moz-range-thumb {
     border-radius: 50px;
     background: #ffc600;
     cursor: pointer;
+}
+
+.fullScreen {
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: .4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color .3s, transform .3s;
+    transform: translateX(100%);
+}
+
+.fullScreen:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:750px) {
+    .iconValue {
+        font-size: .6rem;
+        flex: .20;
+    }
+
+    .displayTime {
+        font-size: .6rem
+    }
+
+    .skipBtn>button {
+        font-size: .6rem
+    }
+
+    .fullScreen {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:550px) {
+    .skipBtn {
+        flex: .9;
+    }
+
+    .toggle {
+        flex: .40;
+    }
+
+    .displayTime {
+        flex-direction: column;
+        flex: .50;
+    }
+
+    .iconValue {
+        flex: .20;
+    }
+
+    .fullScreen {
+        font-size: .6rem;
+        padding: .2rem;
+    }
 }
