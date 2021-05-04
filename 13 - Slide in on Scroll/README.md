@@ -17,7 +17,7 @@
 - It is better to use dev tools and see what results these properties(scroll,offset...) give.
 
 ## Gif
-
+![](https://github.com/gokseloz/JavaScript30/blob/master/13%20-%20Slide%20in%20on%20Scroll/gif/gif.gif)
 
 
 
