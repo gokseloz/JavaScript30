@@ -13,6 +13,11 @@
 | 07  | [Array Cardio Day 2](https://github.com/gokseloz/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202)
 | 08  | [HTML Canvas](https://github.com/gokseloz/JavaScript30/tree/master/08%20-%20HTML5%20Canvas)
 | 09  | [Dev Tools Domination](https://github.com/gokseloz/JavaScript30/tree/master/09%20-%20Dev%20Tools%20Domination)
+| 10  | [Hold Shift and Check Checkboxes](https://github.com/gokseloz/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes%20Add%20main%20page)
+| 11  | [Custom Video Player](https://github.com/gokseloz/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)
+| 12  | [Key Sequence Detection](https://github.com/gokseloz/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)
+| 13  | [Slide in on Scroll](https://github.com/gokseloz/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)
+
 
 
 
