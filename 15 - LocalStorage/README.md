@@ -13,7 +13,6 @@
 ## What did I learn from this project?
 - form has `reset()` method (I have been using input.value = "" 🤣)
 - remove the items from array with `arr.length = 0`
-- 
 
 ## How did I do this?
 - HTML, CSS, vanilla JavaScript
