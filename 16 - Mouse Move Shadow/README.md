@@ -30,3 +30,6 @@ h1 {
 ## Notes
 - walk variable is for adjusting the spaces among shadows. The bigger value, the bigger spacing.
 - importance of offset values
+
+## SS
+![JS30-Mouse-Move-Shadow](https://user-images.githubusercontent.com/72968539/117883400-aa39d280-b2ab-11eb-9ffd-615c5d8dfa59.png)
