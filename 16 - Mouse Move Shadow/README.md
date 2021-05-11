@@ -1,0 +1,32 @@
+## Mouse Move Shadow
+- Moving the text shadows according to the mouse direction
+
+## Why did I work on this project?
+- In order to improve my JS skills
+
+## Extra added
+- My way to ignore the child element with css trick
+```
+h1 {
+  pointer-events: none;
+}
+```
+
+- Original project to ignore the child element  
+```
+    if(this !== e.target){
+    x = x + e.target.offsetLeft
+    y = y + e.target.offsetLeft
+ }
+```
+
+## What did I learn from this project?
+- difference between `e.target and e.currentTarget`
+- Object `destructuring`
+
+## How did I do this?
+- HTML, CSS, vanilla JavaScript
+
+## Notes
+- walk variable is for adjusting the spaces among shadows. The bigger value, the bigger spacing.
+- importance of offset values
