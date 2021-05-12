@@ -34,14 +34,14 @@ const listItems = sortedList.map(band => `<li>🎵 ${band}</li>`).join("");
 
 list.innerHTML = listItems;
 
-
+// Extra: Crazy Dance Animation
 const body = document.querySelector("body")
 const bandCont = document.querySelector(".bands-container")
 
 body.addEventListener("mousemove", crazyDance)
 
 function crazyDance(e){
-    bandCont.style.cssText = `transform:rotateY(${e.offsetX}deg) rotateX(-${e.offsetY}deg)`
+    bandCont.style.cssText = `transform:rotateY(${e.offsetX/2}deg) rotateX(-${e.offsetY/2}deg)`
 }
 
 // -----------------------
