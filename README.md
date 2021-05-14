@@ -21,7 +21,7 @@
 | 15  | [LocalStorage](https://github.com/gokseloz/JavaScript30/tree/master/15%20-%20LocalStorage) |  [Live Demo](https://gokseloz.github.io/JavaScript30/15%20-%20LocalStorage/) |
 | 16  | [Mouse Move Shadow](https://github.com/gokseloz/JavaScript30/tree/master/16%20-%20Mouse%20Move%20Shadow) |  [Live Demo](https://gokseloz.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/) |
 | 17  | [Sorting Without Articles](https://github.com/gokseloz/JavaScript30/tree/master/17%20-%20Sorting%20Without%20Articles) |  [Live Demo](https://gokseloz.github.io/JavaScript30/17%20-%20Sorting%20Without%20Articles/) |
-
+| 18  | [Adding Up Times with Reduce](https://github.com/gokseloz/JavaScript30/tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce) |  [Live Demo](https://gokseloz.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/) |
 
 
 
