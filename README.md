@@ -24,4 +24,6 @@
 | 18  | [Adding Up Times with Reduce](https://github.com/gokseloz/JavaScript30/tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce) |  [Live Demo](https://gokseloz.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/) |
 | 19  | [Webcam Fun](https://github.com/gokseloz/JavaScript30/tree/master/19%20-%20Webcam%20Fun) |
 | 20  | [Speech Detection](https://github.com/gokseloz/JavaScript30/tree/master/20%20-%20Speech%20Detection) |
+| 21  | [Geolocation](https://github.com/gokseloz/JavaScript30/tree/master/21%20-%20Geolocation) |
+
 
