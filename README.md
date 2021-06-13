@@ -27,6 +27,10 @@
 | 21  | [Geolocation](https://github.com/gokseloz/JavaScript30/tree/master/21%20-%20Geolocation) |
 | 20  | [Speech Detection](https://github.com/gokseloz/JavaScript30/tree/master/20%20-%20Speech%20Detection) |
 | 22  | [Folllow Along Links](https://github.com/gokseloz/JavaScript30/tree/master/22%20-%20Follow%20Along%20Link%20Highlighter) | [Live Demo](https://gokseloz.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/) 
+| 23  | [Speech Synthesis](https://github.com/gokseloz/JavaScript30/tree/master/23%20-%20Speech%20Synthesis) | [Live Demo](https://gokseloz.github.io/JavaScript30/23%20-%20Speech%20Synthesis/) 
+
+
+
 
 
 
