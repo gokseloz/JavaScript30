@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(79, 97, 158);
+  border: none;
+  display: block;
+  padding: 6px 12px;
+  margin: 10px auto;
+  font-size: 24px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+div {
+  width: 100%;
+  padding: 100px;
+  position: relative;
+}
+
+div::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 42px;
+  opacity: 0.5;
+}
+
+.one {
+  background: thistle;
+}
+
+.two {
+  background: mistyrose;
+}
+
+.three {
+  background: coral;
+}
