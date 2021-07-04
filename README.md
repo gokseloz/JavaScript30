@@ -28,10 +28,8 @@
 | 20  | [Speech Detection](https://github.com/gokseloz/JavaScript30/tree/master/20%20-%20Speech%20Detection) |
 | 22  | [Folllow Along Links](https://github.com/gokseloz/JavaScript30/tree/master/22%20-%20Follow%20Along%20Link%20Highlighter) | [Live Demo](https://gokseloz.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/) 
 | 23  | [Speech Synthesis](https://github.com/gokseloz/JavaScript30/tree/master/23%20-%20Speech%20Synthesis) | [Live Demo](https://gokseloz.github.io/JavaScript30/23%20-%20Speech%20Synthesis/) 
-| 24  | [Sticky Navs](https://github.com/gokseloz/JavaScript30/tree/master/24%20-%20Sticky%20Navs) | [Live Demo](https://gokseloz.github.io/JavaScript30/24%20-%20Sticky%20Navs/) 
-
-
-
+| 24  | [Sticky Navs](https://github.com/gokseloz/JavaScript30/tree/master/24%20-%20Sticky%20Navs) | [Live Demo](https://gokseloz.github.io/JavaScript30/24%20-%20Sticky%20Navs/)
+| 25  | [Event Capture-Propagation-Bubbling and Once](https://github.com/gokseloz/JavaScript30/tree/master/25%20-%20Event%20Capture-Propagation-Bubbling%20and%20Once) | [Live Demo](https://gokseloz.github.io/JavaScript30/25%20-%20Event%20Capture-Propagation-Bubbling%20and%20Once/) 
 
 
 
