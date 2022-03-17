@@ -32,8 +32,8 @@
 | 25  | [Event Capture-Propagation-Bubbling and Once](https://github.com/gokseloz/JavaScript30/tree/master/25%20-%20Event%20Capture-Propagation-Bubbling%20and%20Once) | [Live Demo](https://gokseloz.github.io/JavaScript30/25%20-%20Event%20Capture-Propagation-Bubbling%20and%20Once/) 
 | 26  | [Stripe Follow Along Nav](https://github.com/gokseloz/JavaScript30/tree/master/26%20-%20Stripe%20Follow%20Along%20Nav) | [Live Demo](https://gokseloz.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav/) 
 | 27  | [Click and Drag](https://github.com/gokseloz/JavaScript30/tree/master/27%20-%20Click%20and%20Drag) | [Live Demo](https://gokseloz.github.io/JavaScript30/27%20-%20Click%20and%20Drag/)
-| 28  | [Video Speed Controller](https://github.com/gokseloz/JavaScript30/tree/master/28%20-%20Video%20Speed%20Controller) | [Live Demo](https://gokseloz.github.io/JavaScript30/27%20-%20Video%20Speed%20Controller/)
-
+| 28  | [Video Speed Controller](https://github.com/gokseloz/JavaScript30/tree/master/28%20-%20Video%20Speed%20Controller) | [Live Demo](https://gokseloz.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)
+| 29  | [Countdown Timer](https://github.com/gokseloz/JavaScript30/tree/master/29%20-%20Countdown%20Timer) | [Live Demo](https://gokseloz.github.io/JavaScript30/29%20-%20Countdown%20Timer/)
 
 
 
