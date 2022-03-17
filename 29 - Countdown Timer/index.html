@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="20" class="timer__button">20 Secs</button>
+      <button data-time="300" class="timer__button">Work 5</button>
+      <button data-time="900" class="timer__button">Quick 15</button>
+      <button data-time="1200" class="timer__button">Snack 20</button>
+      <button data-time="3600" class="timer__button">Lunch Break</button>
+      <button data-format="12" class="hourFormat__button">12 Hour Clock</button>
+      <button data-format="24" class="hourFormat__button" disabled>24 Hour Clock</button>
+      <button data-state="stop" class="startStopBtns stopTimer__button">Stop</button>
+      <button data-state="continue" class="startStopBtns continueTimer__button">Continue</button>
+      <button data-state="restart" class="restartTimer__button">Restart</button>
+
+
+
+      <form name="customForm" id="custom">
+        <input type="number" name="minutes" class="formInput" max="99999" placeholder="Enter Minutes">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display__days-left">0 days</h1>
+      <h1 class="display__time-left">00:00:00</h1>
+      <p class="display__end-time">Be back on</p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
